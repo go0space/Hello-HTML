@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>variable</title>
+</head>
+
+<body>
+    <script>
+        var txt1 = 'text1';
+        console.log(txt1);
+
+        if (true) {
+            var txt2 = 'text2';
+            console.log(txt2);
+        }
+
+        console.log(txt1);
+        console.log(txt2);
+
+        let txt1_1 = 'text1_1';
+        const txt3 = 'hello';
+        console.log(txt1_1);
+
+        if (true) {
+            let txt2_2 = 'text2_2';
+            console.log(txt2_2);
+        }
+
+        console.log(txt1_1);
+        // console.log(txt2_2);
+        // txt3 = 'world';
+        console.log(txt3);
+    </script>
+</body>
+
+</html>
+
+<!-- 
+    변수
+    var, let, const 차이점
+    var는 function-scoped
+    let, const는 block-scoped
+
+    let
+    블록 유효 범위를 갖는 지역 변수를 선언하며, 선언과 동시에 임의의 값으로 초기화
+    
+ -->

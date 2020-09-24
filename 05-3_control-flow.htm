@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>control-flow_array</title>
+</head>
+
+<body>
+    <script>
+        console.log('## for ##');
+        const colors = ['red', 'blue', 'green'];
+        for (let i = 0; i < colors.length; i++) {
+            console.log(colors[i]);
+        }
+
+        console.log('## while ##');
+        var i = 0;
+        while (colors[i] != null) {
+            console.log(colors[i]);
+            i++;
+        }
+
+        console.log('## forEach ##');
+        colors.forEach(function (value) {
+            console.log(value);
+        });
+
+        console.log('## forEach with Arow ##');
+        colors.forEach(value => console.log(value));
+    </script>
+</body>
+
+</html>
+
+<!-- 
+    배열 데이터 처리를 위해 for, while은 인덱스로 접근
+    forEach의 경우 ES6의 => 연산자 사용으로 간결한 코드 사용 가능
+ -->

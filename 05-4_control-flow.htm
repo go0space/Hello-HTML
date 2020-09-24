@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>control-flow_array</title>
+</head>
+
+<body>
+    <script>
+        const colors = ['red', 'blue', 'green'];
+
+        console.log('## for-in ##');
+        for (var index in colors) {
+            console.log(colors[index]);
+        }
+
+        console.log('## for-of-for ##');
+        for (var value of colors) {
+            console.log(value);
+        }
+    </script>
+</body>
+
+</html>
+
+<!-- 
+    배열 데이터를 이용한 for, while, forEach 예제
+    집합형 데이터를 처리하는 경우 일반적인 for문 보다 forEach가 편리한 경우가 많다
+ -->
