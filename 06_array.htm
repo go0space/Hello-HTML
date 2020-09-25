@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>array</title>
+</head>
+
+<body>
+    <script>
+        var numbers1 = [10, 30, 50, 70, 90];
+        var number2 = new Array(20, 40, 60, 80, 100);
+
+        var mixeArr = ['a', 1, 'b', 2, new Date(), "today"];
+        var objArr = [{
+                "id": 20192010,
+                "name": "HongGilDong",
+                "dept": "software"
+            },
+            {
+                "id": 20192011,
+                "name": "KimSarang",
+                "dept": "Managment"
+            },
+            {
+                "id": 20192012,
+                "name": "HongFildong",
+                "dept": "computer engineering"
+            }
+        ];
+
+        console.log(numbers1);
+        console.log(number2);
+        console.log(mixeArr);
+        console.log(objArr[2].name, objArr[2].dept);
+    </script>
+</body>
+
+</html>
+
+<!-- 다양한 배열 선언 -->
+
+<!-- 
+    배열
+
+    배열은 이름과 인덱스로 참조되는 정렬된 값의 집합으로 정의된다
+    배열은 array객체로 다뤄짐
+    배열을 구성하는 각각의 값을 배열 요소(element)라고 하며, 배열에서의 위치를 가리키는 숫자를 인덱스(index)라고 한다
+
+ -->
